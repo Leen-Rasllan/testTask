@@ -85,6 +85,9 @@ public class MyTest extends prameters {
 		    } else {
 		        System.out.println("The final price for " + itemName + " is an odd number, and the value is: " + finalPrice);
 		    }
+
+
+			
 		}
 		
 		
