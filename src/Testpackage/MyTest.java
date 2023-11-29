@@ -80,7 +80,7 @@ public class MyTest extends prameters {
 		    double finalPrice = priceBeforeTax * 0.10;
 
 		
-		    if ((finalPrice) % 2 == 0) {
+		    if (Math.floor(finalPrice) % 2 == 0) {
 		        System.out.println("The final price for " + itemName + " is an even number, and the value is: " + finalPrice);
 		    } else {
 		        System.out.println("The final price for " + itemName + " is an odd number, and the value is: " + finalPrice);
